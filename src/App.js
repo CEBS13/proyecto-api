@@ -50,11 +50,10 @@ function PostsTitle({option1,option2}) {
       <Fragment>
             
         
-        <h3 style={{color:"white"}}>Sort</h3>
 
-        <button onClick={() => refetch({option2:{sort:{field: "title",order:"ASC"}},option1:{sort:{field: "id",order:"ASC"}}}) }>Title</button>
+        <button onClick={() => refetch({option2:{sort:{field: "title",order:"ASC"}},option1:{sort:{field: "id",order:"ASC"}}}) }>Sort by title</button>
 
-        <button onClick={() => refetch({option1:{sort:{field: "username",order:"ASC"}},option2:{sort:{field: "id",order:"ASC"}}})}>Username</button>
+        <button onClick={() => refetch({option1:{sort:{field: "username",order:"ASC"}},option2:{sort:{field: "id",order:"ASC"}}})}>Sort by username</button>
 
         
       
@@ -113,7 +112,7 @@ class App extends React.Component {
 
 <Grid item xs={3}  >
   
-  <SideMenu/>
+  
 </Grid>
 
 <Grid item xs={6}>

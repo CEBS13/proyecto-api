@@ -13,7 +13,8 @@ code {
 
 
 button{
-  background-color: #15202B;
+  margin: 10px 10px 10px 10px;
+  background-color: #192734;
   border: none;
   color: white;
   padding: 15px 32px;
@@ -24,6 +25,6 @@ button{
 }
  
 button:hover {
-  background-color: #192734;
+  background-color: #183d62;
   color: white;
 }
